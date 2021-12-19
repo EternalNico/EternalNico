@@ -40,14 +40,12 @@ header   {
     text-decoration: underline;
     font-size:21px ;
     color: black;
-}
+}   
 h1{
     display: block;
     float: right;
     margin-top: 75px;
     margin-right:20px ;
- }
-h1{
     font-family:'YellowTail';
     color: rgb(218, 215, 214);
     border-bottom:3px solid rgb(218, 215, 214);
@@ -119,7 +117,6 @@ a{
     width: 300px;
     font-size: 25px;
 }
-
 li{
     margin-bottom: 5%;   
 }
