@@ -120,7 +120,7 @@ a{
     font-size: 25px;
 }
 
-ol{
+li{
     margin-bottom: 5%;   
 }
 #Barre{
@@ -229,6 +229,7 @@ form .corps-formulaire .droite .groupe textarea{
     height: 82%;
 }
 form .pied-formulaire button{
+    text-align: center;
  margin-top: 10px;
  background-color: rgb(128, 124, 124);
  font-size: 15px;
