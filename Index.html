@@ -1,23 +1,94 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <link href="Style.css" rel="stylesheet">
     <meta charset="UTF-8">
-
     <title>PortFolioCV_NicolasSacilotto</title>
 </head>
 <body> 
            
-           
+  <div class="ContientPage1">
            <!--entête-->
              <header> 
-              
+              <a class="containerHeader" href="#ancre1">Accueil</a>
+              <a  class="containerHeader" href="#ancre2">À propos de moi</a>
+              <a  class="containerHeader" href="#ancre3">Contact</a>
               </header>  
             
             <!--Page1-->
-              <div class="Page1">
-                fkfkngng
+          
+            <span id="ancre1" class="ancre"></span>
+            <h1>Nicolas Sacilotto</h1>   
+            <div class="Page1">
+                    <!---Nom Prenom-->
+                    <h2 id="Bienvenue">Bienvenue sur mon site web</h2> 
+                    <h3 id="TextePresentation">Vous trouverez des informations me concernant comme mon projet professionnel,<br>
+                       mes centres d'intérêt ainsi que mon CV.</h3>
+                    <div id="Fin"><a  href="#ancre2">Consulter mon profil</a></div>
+              </div>
+          </div>
+          <div class="ContainerPage2">
+               <span id="ancre2" class="ancre"></span>
+              <div class="Page2">
+                    <!--Centre d'interets.-->
+                     
+                        <div id="CentreI">
+                        <div id="CentreIText">Dans la vie j'aime :</div>
+                        <li>Faire du football</li> <li>Écouter de la musique</li> 
+                        <li>M'instruire par le biais de la lecture</li> <li>Apprendre par diverses expériences</li>
+                        
+                        <a href="file:///D:/1%C3%A8re%20Ann%C3%A9e%20BUT/Com/CV_NicolasSacilottoFini.pdf" target="_blank" download> <div class="Boutton">Télecharger le CV.</div></a>
+                    </div>
+                <div id="Barre"></div>
+                <div id="ProjetPro">C'est au cours mon enfance en jouant aux jeux-vidéos que je découvris l'informatique, 
+                  un domaine qui m'attira particulièrement car par la suite, mon cursus scolaire fut établi autour de celui-ci.
+                  Étant actuellement en 1ère année de BUT informatique à Blagnac, je souhaite acquérir le plus de connaissances et 
+                  compétences possibles pour  d'une part obtenir mon diplôme puis dans un second temps me diriger vers un master.</div>
+              </div>
               </div>
 
+              <!--Contact-->
               
+              <div class="ContainerPage3">
+                <div class="Container2page3">
+                      <span id="ancre3" class="ancre"></span>
+                      <div class="Page3">
+                        <form>
+                        <h2>Contactez-moi via le formulaire ou par mail :<br> nicolas.sacilotto22@gmail.com</h2>
+                        <div class="separation"></div>
+                        <div class="corps-formulaire">
+                        <div class="gauche">
+                          <div class="groupe">
+                              <label >Votre prenom</label>
+                              <input type="text">
+                          </div>
+                            <div class="groupe">
+                              <label>Votre adresse e-mail</label>
+                              <input type="text">
+                            </div>
+                            <div class="groupe">
+                              <label>Votre téléphone</label>
+                              <input type="text">
+                            </div>
+                          
+
+                        
+                        </div>
+                        <div class="droite">
+                          <div class="groupe">
+                            <label>Message</label>
+                            <textarea placeholder="Veuillez saisir un message..."></textarea>
+                          </div>
+                        </div>
+                      </div>
+                        <div class="pied-formulaire" align="center">
+                          <button>Envoyer le message</button>
+                  </div>
+                </form>
+                </div>
+              </div>
+              </div>
+               <!--Mention légale-->             
+               <footer>Créé par Nicolas sacilotto - <a href="MentionsLegales.html">Mentions légales</a></footer>
 </body>
 </html>
